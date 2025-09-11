@@ -9,10 +9,10 @@ export default function Home(){
                     <h1 className="text-5xl">fun quiz game!</h1>
                 </div>
                 <div className="flex items-center gap-5">
-                    <QuizTopic color='#25c45d' svg='cruelty_free' topic='Animals' />
-                    <QuizTopic color='#377feb' svg='sports_soccer' topic='Sport' />
-                    <QuizTopic color='#6651d5' svg='science' topic='science' />
-                    <QuizTopic color='#d72638' svg='manufacturing' topic='History' />
+                    <QuizTopic color='#25c45d' hoverColor='#1fa74e' svg='cruelty_free' topic='Animals' />
+                    <QuizTopic color='#377feb' hoverColor='#2e6cd1' svg='sports_soccer' topic='Sport' />
+                    <QuizTopic color='#6651d5' hoverColor='#5644b3' svg='science' topic='science' />
+                    <QuizTopic color='#fc5537' hoverColor='#e04b2f' svg='manufacturing' topic='History' />
                 </div>
                 <div className="flex flex-col items-end gap-4">
                     <SelectField

@@ -11,17 +11,21 @@ module.exports = {
         'secondary-color': '#fefcf7',
         'main-bg': '#ffd444',
         green: {
-          750: '#25c45d',
+          750: '#25c45d',      // اصلی
+          850: '#1fa74e',      // تیره‌تر برای active
         },
         sky: {
           750: '#377feb',
+          850: '#2e6cd1',
         },
         blue: {
           750: '#6651d5',
+          850: '#5644b3',
         },
         red: {
-          750: '#d72638',
-        },
+          750: '#fc5537',
+          850: '#e04b2f',
+        }
       },
     },
     fontFamily:{
