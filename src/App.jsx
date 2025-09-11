@@ -1,3 +1,4 @@
+import './index.css'
 import Home from "./Pages/Home"
 
 
