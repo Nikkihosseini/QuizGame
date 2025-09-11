@@ -3,7 +3,19 @@
 export default function Home(){
     return(
         <>
-             <p className="text-primary-color bg-main-bg">gsdlgjdjfgdfg</p>
+             <div>
+                <div>
+                    <h1>fun quiz game</h1>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div></div>
+                <div></div>
+             </div>
         </>
     )
 }
