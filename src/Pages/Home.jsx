@@ -1,4 +1,4 @@
-
+import QuizTopic from "../Component/QuizTopic"
 
 export default function Home(){
     return(
@@ -7,23 +7,11 @@ export default function Home(){
                 <div>
                     <h1 className="text-5xl">fun quiz game!</h1>
                 </div>
-                <div>
-                    <div>
-                        <span className="material-symbols-outlined">cruelty_free</span>
-                        <span>Animals</span>
-                    </div>
-                    <div>
-                        <span className="material-symbols-outlined">sports_soccer</span>
-                        <span>Sport</span>
-                    </div>
-                    <div>
-                        <span className="material-symbols-outlined">science</span>
-                        <span>Science</span>
-                    </div>
-                    <div>
-                        <span className="material-symbols-outlined">manufacturing</span>
-                        <span>History</span>
-                    </div>
+                <div className="flex items-center gap-5">
+                    <QuizTopic color='#25c45d' svg='cruelty_free' topic='Animals' />
+                    <QuizTopic color='#377feb' svg='sports_soccer' topic='Sport' />
+                    <QuizTopic color='#6651d5' svg='science' topic='science' />
+                    <QuizTopic color='#d72638' svg='manufacturing' topic='History' />
                 </div>
                 <div>
                     <div>
