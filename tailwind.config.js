@@ -24,6 +24,10 @@ module.exports = {
         },
       },
     },
+    fontFamily:{
+      "PressStartBold": "Press Start 2P Bold",
+      "PressStartRegular": "Press Start 2P Regular",
+    }
   },
   plugins: [],
 }
