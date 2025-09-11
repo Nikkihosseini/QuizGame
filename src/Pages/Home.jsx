@@ -2,6 +2,8 @@ import QuizTopic from "../Component/QuizTopic"
 import SelectField from '../Component/SelectField'
 
 export default function Home(){
+
+  
     return(
         <>
              <div className="flex flex-col items-center justify-center w-screen h-screen gap-12 uppercase">
@@ -15,7 +17,8 @@ export default function Home(){
                     <QuizTopic color='#fc5537' hoverColor='#e04b2f' svg='manufacturing' topic='History' />
                 </div>
                 <div className="flex flex-col items-end gap-4">
-                    <SelectField
+                    <SelectField 
+                      id='Difficulty'
                       label="Difficulty:"
                       name="Difficulty"
                       options={[
@@ -25,6 +28,7 @@ export default function Home(){
                       ]}
                     />
                     <SelectField
+                       id='Question'
                       label="Question:"
                       name="Question"
                       options={[
@@ -36,9 +40,9 @@ export default function Home(){
                       ]}
                     />
                 </div>
-                <div>
+                <div className="flex items-center justify-center gap-x-2 text-xl bg-red-750 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer">
                     <span>Start Game</span>
-                    <span className="material-symbols-outlined">flag</span>
+                    <span className="material-symbols-outlined text-2xl text-yellow-300 mb-1.5">flag</span>
                 </div>
              </div>
         </>
