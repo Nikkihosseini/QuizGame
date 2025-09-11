@@ -1,4 +1,5 @@
 import QuizTopic from "../Component/QuizTopic"
+import SelectField from '../Component/SelectField'
 
 export default function Home(){
     return(
@@ -13,25 +14,27 @@ export default function Home(){
                     <QuizTopic color='#6651d5' svg='science' topic='science' />
                     <QuizTopic color='#d72638' svg='manufacturing' topic='History' />
                 </div>
-                <div>
-                    <div>
-                        <span>Difficulty:</span>
-                        <select name="Difficulty" id="Difficulty">
-                            <option value="easy">Easy</option>
-                            <option value="medium">Medium</option>
-                            <option value="hard">Hard</option>
-                        </select>
-                    </div>
-                    <div>
-                        <span>Question:</span>
-                        <select name="Question" id="Question">
-                            <option value="10">10</option>
-                            <option value="15">15</option>
-                            <option value="20">20</option>
-                            <option value="25">25</option>
-                            <option value="30">30</option>
-                        </select>
-                    </div>
+                <div className="flex flex-col items-end gap-4">
+                    <SelectField
+                      label="Difficulty:"
+                      name="Difficulty"
+                      options={[
+                        { value: "easy", label: "Easy" },
+                        { value: "medium", label: "Medium" },
+                        { value: "hard", label: "Hard" },
+                      ]}
+                    />
+                    <SelectField
+                      label="Question:"
+                      name="Question"
+                      options={[
+                        { value: "10", label: "10" },
+                        { value: "15", label: "15" },
+                        { value: "20", label: "20" },
+                        { value: "25", label: "25" },
+                        { value: "30", label: "30" },
+                      ]}
+                    />
                 </div>
                 <div>
                     <span>Start Game</span>
