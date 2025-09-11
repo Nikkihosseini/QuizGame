@@ -3,9 +3,9 @@
 export default function Home(){
     return(
         <>
-             <div>
+             <div className="flex flex-col items-center justify-center w-screen h-screen gap-12 uppercase">
                 <div>
-                    <h1>fun quiz game</h1>
+                    <h1 className="text-5xl">fun quiz game!</h1>
                 </div>
                 <div>
                     <div>
