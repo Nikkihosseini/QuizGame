@@ -1,5 +1,6 @@
 import QuizTopic from "../Component/QuizTopic"
 import SelectField from '../Component/SelectField'
+import Btn from '../Component/Btn'
 
 export default function Home(){
 
@@ -40,10 +41,7 @@ export default function Home(){
                       ]}
                     />
                 </div>
-                <div className="flex items-center justify-center gap-x-2 text-xl bg-red-750 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer">
-                    <span>Start Game</span>
-                    <span className="material-symbols-outlined text-2xl text-yellow-300 mb-1.5">flag</span>
-                </div>
+                <Btn name='Start Game' svg='flag'/>
              </div>
         </>
     )
