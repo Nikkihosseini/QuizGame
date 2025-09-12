@@ -1,0 +1,483 @@
+[
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which animal is known as the 'King of the Jungle'?",
+    "correct_answer": "Lion",
+    "incorrect_answers": ["Tiger", "Elephant", "Giraffe"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the largest mammal in the world?",
+    "correct_answer": "Blue Whale",
+    "incorrect_answers": ["Elephant", "Giraffe", "Hippopotamus"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the fastest land animal?",
+    "correct_answer": "Cheetah",
+    "incorrect_answers": ["Lion", "Tiger", "Leopard"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which bird is known for its ability to mimic human speech?",
+    "correct_answer": "Parrot",
+    "incorrect_answers": ["Crow", "Sparrow", "Eagle"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which animal has the longest lifespan?",
+    "correct_answer": "Tortoise",
+    "incorrect_answers": ["Elephant", "Whale", "Parrot"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the only mammal capable of true flight?",
+    "correct_answer": "Bat",
+    "incorrect_answers": ["Flying Squirrel", "Owl", "Eagle"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which animal is known as the 'Ship of the Desert'?",
+    "correct_answer": "Camel",
+    "incorrect_answers": ["Horse", "Elephant", "Llama"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which animal lays the largest eggs?",
+    "correct_answer": "Ostrich",
+    "incorrect_answers": ["Chicken", "Eagle", "Crocodile"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is a group of lions called?",
+    "correct_answer": "Pride",
+    "incorrect_answers": ["Pack", "Herd", "Flock"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which marine animal has three hearts?",
+    "correct_answer": "Octopus",
+    "incorrect_answers": ["Shark", "Dolphin", "Whale"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which mammal has the most powerful bite force?",
+    "correct_answer": "Hippopotamus",
+    "incorrect_answers": ["Lion", "Crocodile", "Tiger"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What is the fastest aquatic animal?",
+    "correct_answer": "Sailfish",
+    "incorrect_answers": ["Shark", "Dolphin", "Marlin"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which animal is famous for changing its color for camouflage?",
+    "correct_answer": "Chameleon",
+    "incorrect_answers": ["Octopus", "Cuttlefish", "Frog"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which bird can fly backwards?",
+    "correct_answer": "Hummingbird",
+    "incorrect_answers": ["Sparrow", "Eagle", "Owl"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the only marsupial found in North America?",
+    "correct_answer": "Virginia Opossum",
+    "incorrect_answers": ["Kangaroo", "Koala", "Wombat"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many players are there in a football (soccer) team on the field?",
+    "correct_answer": "11",
+    "incorrect_answers": ["10", "12", "9"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which sport uses a shuttlecock?",
+    "correct_answer": "Badminton",
+    "incorrect_answers": ["Tennis", "Squash", "Table Tennis"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country won the FIFA World Cup in 2018?",
+    "correct_answer": "France",
+    "incorrect_answers": ["Croatia", "Brazil", "Germany"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In tennis, what piece of fruit is found at the top of the men's Wimbledon trophy?",
+    "correct_answer": "Pineapple",
+    "incorrect_answers": ["Apple", "Grapes", "Banana"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which Formula 1 driver has the most world championships?",
+    "correct_answer": "Lewis Hamilton",
+    "incorrect_answers": ["Michael Schumacher", "Sebastian Vettel", "Ayrton Senna"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country hosted the 2016 Summer Olympics?",
+    "correct_answer": "Brazil",
+    "incorrect_answers": ["China", "UK", "Russia"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which NFL team won the most Super Bowls in the 1990s?",
+    "correct_answer": "Dallas Cowboys",
+    "incorrect_answers": ["San Francisco 49ers", "New England Patriots", "Green Bay Packers"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many points is a touchdown worth in American football?",
+    "correct_answer": "6",
+    "incorrect_answers": ["3", "7", "5"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country invented the sport of table tennis?",
+    "correct_answer": "England",
+    "incorrect_answers": ["China", "USA", "France"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which golfer is nicknamed 'The Golden Bear'?",
+    "correct_answer": "Jack Nicklaus",
+    "incorrect_answers": ["Tiger Woods", "Arnold Palmer", "Ben Hogan"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "In basketball, how many points is a free throw worth?",
+    "correct_answer": "1",
+    "incorrect_answers": ["2", "3", "0"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which country won the first ever FIFA World Cup in 1930?",
+    "correct_answer": "Uruguay",
+    "incorrect_answers": ["Brazil", "Argentina", "Italy"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "In which sport is the term 'birdie' used?",
+    "correct_answer": "Golf",
+    "incorrect_answers": ["Tennis", "Badminton", "Squash"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country is famous for the martial art of Taekwondo?",
+    "correct_answer": "South Korea",
+    "incorrect_answers": ["China", "Japan", "Thailand"]
+  },
+  {
+    "category": "Sport",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Who holds the record for the most Olympic gold medals?",
+    "correct_answer": "Michael Phelps",
+    "incorrect_answers": ["Usain Bolt", "Larisa Latynina", "Mark Spitz"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "How many planets are in our Solar System?",
+    "correct_answer": "8",
+    "incorrect_answers": ["7", "9", "10"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What gas do plants absorb from the atmosphere?",
+    "correct_answer": "Carbon Dioxide",
+    "incorrect_answers": ["Oxygen", "Nitrogen", "Hydrogen"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is the chemical symbol for Gold?",
+    "correct_answer": "Au",
+    "incorrect_answers": ["Ag", "Gd", "Go"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which planet is known as the Red Planet?",
+    "correct_answer": "Mars",
+    "incorrect_answers": ["Venus", "Jupiter", "Saturn"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the main gas found in the Earth's atmosphere?",
+    "correct_answer": "Nitrogen",
+    "incorrect_answers": ["Oxygen", "Carbon Dioxide", "Hydrogen"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which particle carries a negative charge?",
+    "correct_answer": "Electron",
+    "incorrect_answers": ["Proton", "Neutron", "Photon"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the powerhouse of the cell?",
+    "correct_answer": "Mitochondria",
+    "incorrect_answers": ["Nucleus", "Ribosome", "Chloroplast"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Water freezes at what temperature in Celsius?",
+    "correct_answer": "0",
+    "incorrect_answers": ["32", "100", "-10"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What is H2O commonly known as?",
+    "correct_answer": "Water",
+    "incorrect_answers": ["Hydrogen Peroxide", "Oxygen", "Salt"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the unit of electrical resistance?",
+    "correct_answer": "Ohm",
+    "incorrect_answers": ["Volt", "Ampere", "Watt"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which element has the atomic number 1?",
+    "correct_answer": "Hydrogen",
+    "incorrect_answers": ["Helium", "Oxygen", "Carbon"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What is the most abundant element in the Earth's crust?",
+    "correct_answer": "Oxygen",
+    "incorrect_answers": ["Silicon", "Aluminium", "Iron"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Which planet is closest to the Sun?",
+    "correct_answer": "Mercury",
+    "incorrect_answers": ["Venus", "Earth", "Mars"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "What part of the atom has no charge?",
+    "correct_answer": "Neutron",
+    "incorrect_answers": ["Electron", "Proton", "Photon"]
+  },
+  {
+    "category": "Science",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which gas is used in balloons to make them float?",
+    "correct_answer": "Helium",
+    "incorrect_answers": ["Hydrogen", "Oxygen", "Nitrogen"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "In which year did World War II end?",
+    "correct_answer": "1945",
+    "incorrect_answers": ["1939", "1944", "1950"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who was the first President of the United States?",
+    "correct_answer": "George Washington",
+    "incorrect_answers": ["Thomas Jefferson", "John Adams", "Abraham Lincoln"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which ancient civilization built the Machu Picchu?",
+    "correct_answer": "Inca",
+    "incorrect_answers": ["Maya", "Aztec", "Olmec"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "The Berlin Wall fell in which year?",
+    "correct_answer": "1989",
+    "incorrect_answers": ["1991", "1987", "1990"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Who was the British Prime Minister during most of World War II?",
+    "correct_answer": "Winston Churchill",
+    "incorrect_answers": ["Neville Chamberlain", "Clement Attlee", "Margaret Thatcher"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which empire was ruled by Genghis Khan?",
+    "correct_answer": "Mongol Empire",
+    "incorrect_answers": ["Ottoman Empire", "Roman Empire", "Persian Empire"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "In which year did the French Revolution begin?",
+    "correct_answer": "1789",
+    "incorrect_answers": ["1776", "1799", "1804"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who discovered America in 1492?",
+    "correct_answer": "Christopher Columbus",
+    "incorrect_answers": ["Leif Erikson", "Amerigo Vespucci", "Ferdinand Magellan"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which country was known as Persia until 1935?",
+    "correct_answer": "Iran",
+    "incorrect_answers": ["Iraq", "Turkey", "Afghanistan"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which treaty ended World War I?",
+    "correct_answer": "Treaty of Versailles",
+    "incorrect_answers": ["Treaty of Paris", "Treaty of Ghent", "Treaty of Utrecht"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Who was the last Emperor of Russia?",
+    "correct_answer": "Nicholas II",
+    "incorrect_answers": ["Peter the Great", "Alexander III", "Ivan IV"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Which dynasty ruled China before the Qing dynasty?",
+    "correct_answer": "Ming Dynasty",
+    "incorrect_answers": ["Song Dynasty", "Han Dynasty", "Tang Dynasty"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Who was known as the Maid of Orléans?",
+    "correct_answer": "Joan of Arc",
+    "incorrect_answers": ["Marie Antoinette", "Catherine de Medici", "Eleanor of Aquitaine"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Which wall divided East and West Berlin?",
+    "correct_answer": "Berlin Wall",
+    "incorrect_answers": ["Great Wall", "Hadrian's Wall", "Western Wall"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "What was the name of the ship on which the Pilgrims traveled to America in 1620?",
+    "correct_answer": "Mayflower",
+    "incorrect_answers": ["Santa Maria", "Endeavour", "Beagle"]
+  }
+
+]
