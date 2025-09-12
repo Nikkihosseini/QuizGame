@@ -1,4 +1,3 @@
-import axios from "axios";
 import QuizTopic from "../Component/QuizTopic"
 import SelectField from '../Component/SelectField'
 import Btn from '../Component/Btn'
@@ -6,21 +5,6 @@ import { useEffect } from "react";
 
 export default function Home(){
 
-   
-  useEffect(() => {
-    async function fetchQuestions() {
-      try {
-        const res = await axios.get(
-          "https://opentdb.com/api.php?amount=5&category=18&type=multiple"
-        );
-       console.log(res.data.result)
-      } catch (error) {
-        console.error("Error fetching questions:", error);
-      }
-    }
-
-    fetchQuestions();
-  }, []);
   
     return(
         <>
