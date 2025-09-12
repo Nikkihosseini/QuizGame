@@ -6,7 +6,7 @@ export default function QuizTopic({svg, topic, color, hoverColor}){
 
     return(
         <>
-            <div className='flex flex-col items-center gap-3 text-secondary-color w-[110px] aspect-square p-2 rounded-xl cursor-pointer' style={{backgroundColor: bg }}
+            <div className='flex flex-col items-center gap-3 text-secondary-color w-[110px] aspect-square p-2 rounded-xl cursor-pointer transition-all' style={{backgroundColor: bg }}
              onMouseEnter={() => setBg(hoverColor)}
              onMouseLeave={() => setBg(color)}>
                 <span className="material-symbols-outlined text-6xl">{svg}</span>
