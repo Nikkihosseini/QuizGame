@@ -9,6 +9,7 @@ export default function Home(){
 
   const [state, dispatch] = useReducer(quizReducer,initialState)
 
+  // 180 questions for quiz (4 categories, 3 difficulties)
   useEffect(()=>{
     dispatch({type:"SET_QUESTIONS", payload: questionsData})
   }, [])
