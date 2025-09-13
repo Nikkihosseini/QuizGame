@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 export const initialState = {
   questions: [],
   filteredQuestions: [],
@@ -22,19 +24,17 @@ export function quizReducer(state, action) {
       return { ...state, settings: action.payload };
   
     case "START_GAME":
-      return {
-        ...state,
-        filteredQuestions: state.questions
-          .filter(q => q.category.toLowerCase() === state.settings.category.toLowerCase())
-          .filter(q => q.difficulty.toLowerCase() === state.settings.difficulty.toLowerCase())
-          .slice(0, Number(state.settings.numberOfQuestions)),
-        status: "playing",
-        currentQuestion: 0,
-        score: 0,
-        showScore: false,
-        feedback: null
-      }
-     
+     return {
+      ...state,
+      status: "playing",
+      currentQuestion: 0,
+      score: 0,
+      showScore: false,
+      feedback: null
+     };
+      
+     case "SET_FILTERED_QUESTIONS":
+       return { ...state, filteredQuestions: action.payload };
   
 
     case "ANSWER_QUESTION":
