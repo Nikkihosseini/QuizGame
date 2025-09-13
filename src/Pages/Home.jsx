@@ -28,7 +28,19 @@ export default function Home(){
     payload: { ...state.settings, category: topic}
   });
   console.log(topic)
-};
+ };
+
+  useEffect(() => {
+  if (state.questions.length === 0) return;
+
+    const filtered = state.questions
+     .filter(q => q.category.toLowerCase() === state.settings.category.toLowerCase())
+     .filter(q => q.difficulty.toLowerCase() === state.settings.difficulty.toLowerCase())
+     .slice(0, Number(state.settings.numberOfQuestions));
+
+    dispatch({ type: "SET_FILTERED_QUESTIONS", payload: filtered });
+  }, [state.settings, state.questions.length]);
+
   
   if (state.status === "setup"){
 
