@@ -13,9 +13,14 @@ export default function Home(){
     dispatch({type:"SET_QUESTIONS", payload: questionsData})
   }, [])
 
+  
+
   const handleStart = () => {
     dispatch({ type: "START_GAME" });
     console.log('its Ok')
+    console.log(state.filteredQuestions)
+    console.log("Settings:", state.settings);
+    console.log("All Questions:", state.questions);
   };
   const handleCategory = (topic) => {
   dispatch({
@@ -34,13 +39,13 @@ export default function Home(){
                   <h1 className="text-5xl">fun quiz game!</h1>
               </div>
               <div className="flex items-center gap-5">
-                  <QuizTopic onClick={()=>handleCategory('Animals')} color='#25c45d' hoverColor='#1fa74e' svg='cruelty_free' topic='Animals'/>
+                  <QuizTopic onClick={()=>handleCategory('animals')} color='#25c45d' hoverColor='#1fa74e' svg='cruelty_free' topic='Animals'/>
 
-                  <QuizTopic onClick={()=>handleCategory('Sport')} color='#377feb' hoverColor='#2e6cd1' svg='sports_soccer' topic='Sport'/>
+                  <QuizTopic onClick={()=>handleCategory('sport')} color='#377feb' hoverColor='#2e6cd1' svg='sports_soccer' topic='Sport'/>
 
                   <QuizTopic onClick={()=>handleCategory('science')} color='#6651d5' hoverColor='#5644b3' svg='science' topic='science'/>
 
-                  <QuizTopic onClick={()=>handleCategory('History')} color='#fc5537' hoverColor='#e04b2f' svg='manufacturing' topic='History'/>
+                  <QuizTopic onClick={()=>handleCategory('history')} color='#fc5537' hoverColor='#e04b2f' svg='manufacturing' topic='History'/>
               </div>
               <div className="flex flex-col items-end gap-4">
                   <SelectField 
@@ -64,7 +69,7 @@ export default function Home(){
                       onChange={(e) =>{
                         dispatch({
                         type: "SET_SETTINGS",
-                        payload: { ...state.settings, difficulty: e.target.value}
+                        payload: { ...state.settings, numberOfQuestions: Number(e.target.value)}
                         });
                         console.log(e.target.value)
                       }}

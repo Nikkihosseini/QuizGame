@@ -5,9 +5,9 @@ export const initialState = {
   score: 0,
   showScore: false,
   settings: {
-    category: "",
-    difficulty: "",
-    numberOfQuestions: 0
+    category: "animals",
+    difficulty: "easy",
+    numberOfQuestions: 5
   },
   status: "setup", // setup | playing | finished
   feedback: null   // "correct" | "wrong" | null
@@ -25,15 +25,17 @@ export function quizReducer(state, action) {
       return {
         ...state,
         filteredQuestions: state.questions
-          .filter(q => q.category === state.settings.category)
-          .filter(q => q.difficulty === state.settings.difficulty)
-          .slice(0, state.settings.numberOfQuestions),
+          .filter(q => q.category.toLowerCase() === state.settings.category.toLowerCase())
+          .filter(q => q.difficulty.toLowerCase() === state.settings.difficulty.toLowerCase())
+          .slice(0, Number(state.settings.numberOfQuestions)),
         status: "playing",
         currentQuestion: 0,
         score: 0,
         showScore: false,
         feedback: null
-      };
+      }
+     
+  
 
     case "ANSWER_QUESTION":
       const currentQ = state.filteredQuestions[state.currentQuestion];
