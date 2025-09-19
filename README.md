@@ -1,12 +1,32 @@
-# React + Vite
+# QuizGame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive quiz game built with **React**, **Vite**, and **Tailwind CSS**.  
+This project helps users practice multiple-choice questions from different categories and difficulties.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Choose a quiz category: Animals, Sport, Science, History
+- Select difficulty: Easy, Medium, Hard
+- Select the number of questions (5, 10, 15)
+- Multiple-choice questions with randomized answer options
+- Timer for each question (15 seconds)
+- Immediate feedback for correct/incorrect answers
+- Automatic navigation to the next question after answering or time runs out
+- Display total score at the end of the quiz
+- Return to home page from the results
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo
+
+<a href="https://freeimage.host/i/K7hKzxa"><img src="https://iili.io/K7hKzxa.md.png" alt="K7hKzxa.md.png" border="0"></a><br /><a target='_blank' href='https://freeimage.host/'>upload</a><br />
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Nikkihosseini/QuizGame.git
+
