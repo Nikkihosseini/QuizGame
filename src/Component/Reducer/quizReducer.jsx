@@ -33,8 +33,8 @@ export function quizReducer(state, action) {
       feedback: null
      };
       
-     case "SET_FILTERED_QUESTIONS":
-       return { ...state, filteredQuestions: action.payload };
+    case "SET_FILTERED_QUESTIONS":
+      return { ...state, filteredQuestions: action.payload };
   
 
     case "ANSWER_QUESTION":
