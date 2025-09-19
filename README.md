@@ -1,7 +1,8 @@
 # QuizGame
 
 A fun and interactive quiz game built with **React**, **Vite**, and **Tailwind CSS**.  
-This project helps users practice multiple-choice questions from different categories and difficulties.
+This project is built as a practice project to learn and use **useReducer** in React.
+
 
 ## Features
 
@@ -14,6 +15,16 @@ This project helps users practice multiple-choice questions from different categ
 - Automatic navigation to the next question after answering or time runs out
 - Display total score at the end of the quiz
 - Return to home page from the results
+
+---
+
+## Technologies Used
+
+- React
+- React Router DOM
+- Tailwind CSS
+- JSON for quiz data
+- React Context & useReducer for state management
 
 ---
 
