@@ -13,7 +13,8 @@ export default function QuestionPage() {
   const totalQuestions = state.filteredQuestions.length;
 
   const handleGoHome = () => {
-    navigate("/", { replace: true });
+    dispatch({ type: "RESET" });
+    navigate("/");
   };
 
   useEffect(() => {
@@ -99,7 +100,7 @@ export default function QuestionPage() {
             <p className="flex items-center justify-center text-2xl">
                 🎉 Quiz Finished! Your score: {state.score} / {totalQuestions}
             </p>
-            <span onClick={handleGoHome}  className="flex items-center justify-center gap-x-2 text-xl bg-red-750 hover:bg-red-850 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer transition-all">Home Page</span>
+            <div onClick={handleGoHome}  className="flex items-center justify-center gap-x-2 text-xl bg-red-750 hover:bg-red-850 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer transition-all">Home Page</div>
         </div>
       )}
     </div>
