@@ -9,11 +9,13 @@ export default function QuestionPage() {
   const [timeLeft, setTimeLeft] = useState(15);
   const [options, setOptions] = useState([]);
   const navigate = useNavigate();
-
   const questionData = state.filteredQuestions[state.currentQuestion];
   const totalQuestions = state.filteredQuestions.length;
 
-  // ✅ همیشه hookها اجرا می‌شن، حتی وقتی سوال وجود نداره
+  const handleGoHome = () => {
+    navigate("/", { replace: true });
+  };
+
   useEffect(() => {
     if (!questionData) return;
     const shuffledOptions = [
@@ -49,14 +51,13 @@ export default function QuestionPage() {
 
   const handleNext = () => {
     if (state.currentQuestion + 1 >= totalQuestions) {
-      // وقتی سوالا تموم شدن
       dispatch({ type: "NEXT_QUESTION" });
       return;
     }
     dispatch({ type: "NEXT_QUESTION" });
   };
 
-  // ✅ JSX
+  
   return (
     <div className="flex flex-col items-center justify-center h-screen p-4">
       {questionData ? (
@@ -98,7 +99,7 @@ export default function QuestionPage() {
             <p className="flex items-center justify-center text-2xl">
                 🎉 Quiz Finished! Your score: {state.score} / {totalQuestions}
             </p>
-            <span onClick={()=> navigate('/')}  className="flex items-center justify-center gap-x-2 text-xl bg-red-750 hover:bg-red-850 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer transition-all">Home Page</span>
+            <span onClick={handleGoHome}  className="flex items-center justify-center gap-x-2 text-xl bg-red-750 hover:bg-red-850 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer transition-all">Home Page</span>
         </div>
       )}
     </div>
