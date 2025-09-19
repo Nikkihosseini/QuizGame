@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { QuizContext } from "../Component/Context/QuizContext";
+import { useNavigate } from "react-router-dom";
 
 export default function QuestionPage() {
   const { state, dispatch } = useContext(QuizContext);
@@ -7,6 +8,7 @@ export default function QuestionPage() {
   const [showFeedback, setShowFeedback] = useState(false);
   const [timeLeft, setTimeLeft] = useState(15);
   const [options, setOptions] = useState([]);
+  const navigate = useNavigate();
 
   const questionData = state.filteredQuestions[state.currentQuestion];
   const totalQuestions = state.filteredQuestions.length;
@@ -96,7 +98,7 @@ export default function QuestionPage() {
             <p className="flex items-center justify-center text-2xl">
                 🎉 Quiz Finished! Your score: {state.score} / {totalQuestions}
             </p>
-            <span className="flex items-center justify-center gap-x-2 text-xl bg-red-750 hover:bg-red-850 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer transition-all">Home Page</span>
+            <span onClick={()=> navigate('/')}  className="flex items-center justify-center gap-x-2 text-xl bg-red-750 hover:bg-red-850 rounded-2xl w-60 text-secondary-color p-3 cursor-pointer transition-all">Home Page</span>
         </div>
       )}
     </div>
