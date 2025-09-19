@@ -2,12 +2,15 @@ import './index.css'
 import Home from "./Pages/Home"
 import QuestionPage from "./Pages/QuestionPage"
 import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
+import { QuizProvider } from "./Component/Context/QuizContext";
+
 
 
 function App() {
 
   return (
     <>
+    <QuizProvider>
     <Router>
       <Routes>
 
@@ -16,6 +19,7 @@ function App() {
       
       </Routes>
     </Router>
+    </QuizProvider>
     </>
   )
 }
