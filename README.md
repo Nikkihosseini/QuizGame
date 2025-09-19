@@ -19,7 +19,7 @@ This project helps users practice multiple-choice questions from different categ
 
 ## Demo
 
-<a href="https://freeimage.host/i/K7hKzxa"><img src="https://iili.io/K7hKzxa.md.png" alt="K7hKzxa.md.png" border="0"></a><br /><a target='_blank' href='https://freeimage.host/'>upload</a><br />
+<a href="https://freeimage.host/i/K7hKzxa"><img src="https://iili.io/K7hKzxa.md.png" alt="K7hKzxa.md.png" border="0"></a><br /><a target='_blank' href='https://freeimage.host/'></a>
 
 ---
 
