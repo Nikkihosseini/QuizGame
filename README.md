@@ -21,7 +21,7 @@ This project is built as a practice project to learn and use **useReducer** in R
 ## Technologies Used
 
 - React
-- React Router DOM
+- React Router DOM (useNavigate)
 - Tailwind CSS
 - JSON for quiz data
 - React Context & useReducer for state management
