@@ -13,15 +13,19 @@ export default function Home(){
   const navigate = useNavigate();
 
 
-
-
   // 180 questions for quiz (4 categories, 3 difficulties)
   useEffect(()=>{
     dispatch({type:"SET_QUESTIONS", payload: questionsData})
   }, [])
 
+  
+
   const handleStart = () => {
     dispatch({ type: "START_GAME" });
+    console.log('its Ok')
+    console.log(state.filteredQuestions)
+    console.log("Settings:", state.settings);
+    console.log("All Questions:", state.questions);
     navigate("/QuestionPage");
   };
   const handleCategory = (topic) => {
