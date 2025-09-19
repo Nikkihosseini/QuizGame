@@ -1,16 +1,18 @@
-import React, { useReducer, useEffect, useState } from "react";
+import React, { useReducer, useEffect, useState , useContext} from "react";
 import QuizTopic from "../Component/QuizTopic"
 import SelectField from '../Component/SelectField'
 import Btn from '../Component/Btn'
 import { quizReducer, initialState } from "../Component/Reducer/quizReducer";
 import questionsData from "../../public/data/questionsData.json";
 import { useNavigate } from "react-router-dom";
+import {QuizContext} from '../Component/Context/QuizContext'
 
 export default function Home(){
 
-  const [state, dispatch] = useReducer(quizReducer,initialState)
-
+  const { state, dispatch } = useContext(QuizContext);
   const navigate = useNavigate();
+
+
 
 
   // 180 questions for quiz (4 categories, 3 difficulties)
@@ -18,14 +20,8 @@ export default function Home(){
     dispatch({type:"SET_QUESTIONS", payload: questionsData})
   }, [])
 
-  
-
   const handleStart = () => {
     dispatch({ type: "START_GAME" });
-    console.log('its Ok')
-    console.log(state.filteredQuestions)
-    console.log("Settings:", state.settings);
-    console.log("All Questions:", state.questions);
     navigate("/QuestionPage");
   };
   const handleCategory = (topic) => {
