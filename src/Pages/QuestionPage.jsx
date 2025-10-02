@@ -96,7 +96,7 @@ export default function QuestionPage() {
           </div>
         </>
       ) : (
-        <div className="flex flex-col items-center gap-y-5">
+        <div className="flex flex-col items-center text-center gap-y-5">
             <p className="flex items-center justify-center text-2xl">
                 🎉 Quiz Finished! Your score: {state.score} / {totalQuestions}
             </p>
