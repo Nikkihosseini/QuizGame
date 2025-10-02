@@ -54,16 +54,22 @@ export default function Home(){
        <>
            <div className="flex flex-col items-center justify-center w-screen h-screen gap-12 uppercase">
               <div>
-                  <h1 className="text-5xl">fun quiz game!</h1>
+                  <h1 className="text-xl sm:text-5xl">fun quiz game!</h1>
               </div>
-              <div className="flex items-center gap-5">
-                  <QuizTopic onClick={()=>handleCategory('animals')} color='#25c45d' hoverColor='#1fa74e' svg='cruelty_free' topic='Animals'/>
+              <div className="flex items-center gap-5 justify-center flex-wrap md:flex-nowrap">
+                 
+                 <div className="flex items-center gap-5">
+                   <QuizTopic onClick={()=>handleCategory('animals')} color='#25c45d' hoverColor='#1fa74e' svg='cruelty_free' topic='Animals'/>
 
                   <QuizTopic onClick={()=>handleCategory('sport')} color='#377feb' hoverColor='#2e6cd1' svg='sports_soccer' topic='Sport'/>
+                 </div>
 
-                  <QuizTopic onClick={()=>handleCategory('science')} color='#6651d5' hoverColor='#5644b3' svg='science' topic='science'/>
+                 <div className="flex items-center gap-5">
+                   <QuizTopic onClick={()=>handleCategory('science')} color='#6651d5' hoverColor='#5644b3' svg='science' topic='science'/>
 
                   <QuizTopic onClick={()=>handleCategory('history')} color='#fc5537' hoverColor='#e04b2f' svg='manufacturing' topic='History'/>
+                 </div>
+
               </div>
               <div className="flex flex-col items-end gap-4">
                   <SelectField 
